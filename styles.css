@@ -1,0 +1,119 @@
+/* Add your CSS styling here */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  color: #fff;
+  height: 100%; /* Set body height to 100% for proper footer positioning */
+}
+
+.jeopardy-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px;
+  margin: 20px;
+  border: 6px solid black;
+}
+
+.category-title, .jeopardy-question {
+  border: 6px solid black;
+  padding: 20px;
+  min-height: 90px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  background-color: #0055AA;
+}
+
+.category-title {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.category-title {
+  color: white;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.jeopardy-question {
+  font-size: 40px;
+  color: #ffcc00;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+
+.question-selected {
+  color: #807A55 !important;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 75%;
+  max-width: 1000px; /* Set maximum width */
+  min-height: 40%;
+  max-height: 90%;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 22px; /* Larger font size for modal content */
+  color: #000;
+  margin: auto; /* Center the modal content */
+  position: fixed; /* Fixed positioning */
+  top: 50%; /* Position from top */
+  left: 50%; /* Position from left */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  z-index: 9999; /* Set a higher z-index to ensure it appears above other elements */
+  vertical-align: middle;
+}
+
+.modal-content h2 {
+  color: #d3d3d3;
+  margin-left: 20px
+}
+
+
+
+.question, .answer {
+  font-size: 40px; /* Increase the font size */
+  text-align: center; /* Center the text */
+  height: 80%;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  flex-direction: column; /* Stack elements in a column */
+}
+
+/*FOOTER FORMATTING*/
+footer {
+  background-color: #d6d6d6;
+  color: #363636;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  position: fixed; /* Fixed positioning */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Occupy full width */
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+  color: #363636;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+/*END FOOTER FORMATTING*/
+
