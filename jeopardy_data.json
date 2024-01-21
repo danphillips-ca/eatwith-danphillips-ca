@@ -20,7 +20,7 @@
         },
         {
           "value": 800,
-          "question": "This Canadian fast food mascot would be accompanied by the tuba song 'Ba Dum Ba Dum' (heard here) in commercials from the 1970s through the late 90s.",
+          "question": "This Canadian fast food mascot would be accompanied by the tuba song 'Ba Dum Ba Dum' (heard here) in commercials from the 1970s through the late 90s.<br><br><audio controls><source src='/media/Ba-Dum Ba-Dum - Sample.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio>",
           "answer": "Who is the Great Root Bear?"
         }
       ]
@@ -94,7 +94,7 @@
         },
         {
           "value": 800,
-          "question": "The cocktails in this AI generated image are pizza homophones.'>",
+          "question": "The cocktails in this AI generated image are pizza homophones.",
           "answer": "What is a Margharita and Little Caesar?"
         }
       ]
